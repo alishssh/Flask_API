@@ -1,6 +1,7 @@
 **Documentation**
 
 This Django app aims to load stock data from CSV file intolocal database and api to fetch data for individual stock based on the ticker.
+<br>
 
 **Tech Stack**
 
@@ -9,6 +10,7 @@ Backend(Django)
 Database(PostgreSQL)
 
 API (RESTAPI)
+<br>
 
 **Project Structure**
 
@@ -51,6 +53,7 @@ flask-stock-api/
 ├── run.py
 
 ├── README.md
+<br>
 
 **Step-By-Step Implementation**
 
@@ -335,6 +338,7 @@ def get\_stock\_data(ticker):
 if \_\_name\_\_ == '\_\_main\_\_':
 
     app.run(debug=True)
+    <br>
 
 **Run the Project**
 
@@ -343,6 +347,7 @@ Running theserver using python manage.py runserver
 The API isthen available in [https://127.0.0.1:8000/\>](https://127.0.0.1:8000/<ticker)
 
  [](https://127.0.0.1:8000/<ticker)
+ <br>
 
 [**Fetching the data**](https://127.0.0.1:8000/<ticker)
 
@@ -351,6 +356,7 @@ The API isthen available in [https://127.0.0.1:8000/\>](https://127.0.0.1:8000/<
 
 Sending POST request for [http://127.0.0.1:5000/stocks/NMB50](http://127.0.0.1:5000/stocks/NMB50)
 ![Image](https://github.com/user-attachments/assets/114c9a4b-2839-4a5d-aa68-21c4a02b35d1)
+<br>
 
 **Conclusion:**
 
