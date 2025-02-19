@@ -69,7 +69,7 @@ DB\_NAME = "Intern"
 
 DB\_USER = "postgres"
 
-DB\_PASSWORD = "Alish@123"
+DB\_PASSWORD = "****"
 
 DB\_HOST = "localhost"
 
