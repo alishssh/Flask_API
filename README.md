@@ -1,6 +1,6 @@
 **Documentation**
 
-This Django app aims to load stock data from CSV file intolocal database and api to fetch data for individual stock based on the ticker.
+This Django app aims to load stock data from CSV file into local database and api to fetch data for individual stock based on the ticker.
 <br>
 
 **Tech Stack**
